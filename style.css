@@ -1,0 +1,153 @@
+@font-face {
+	font-family: 'Montserrat';
+    src: url(..\font\Montserrat-Regular.ttf);
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+    font-family: Montserrat;
+    background: linear-gradient(167.47deg, #1F2225 0%, #1B1B1B 109.51%);
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.block1{
+    background-image: url(../img/bg_v2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background: rgba(31, 34, 37, 0.29);
+}
+.header_list{
+    margin: 0 auto;
+    width: 357px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.blck1{
+    margin: 0 auto;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.blck1_img{
+    width: 100%;
+    margin: 0 auto;
+}
+.zagalovok{
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    font-size: 48px;
+    line-height: 180%;
+    color: white;
+    text-shadow:
+	   -1px -1px 0 #fff,  
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		 1px 1px 0 #fff
+}
+@supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
+    .zagalovok {
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+		text-stroke: 1px white;
+        text-shadow: none;
+    }
+}
+.blck2{
+    display: flex;
+    margin: 0 auto;
+    gap: 96px;
+}
+.img_blck2{
+    width: 450px;
+}
+.text{
+    line-height: 180%;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+.text_blck2{
+    line-height: 180%;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    width: 590px;
+}
+.head_text{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 180%;
+    padding-top: 42px;
+    padding-bottom: 16px;
+}
+.blck_cards{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.card{
+    width: 365px;
+    display: block;
+    padding-bottom: 40px;
+}
+.img_card{
+    margin: 0 auto;
+}
+.text_card{
+    text-align: center;
+    margin: 0 auto;
+}
+.block5{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.watching{
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    padding-top: 50px;
+}
+.zagalovok_contact{
+    font-weight: 700;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    font-size: 48px;
+    line-height: 180%;
+    color: white;
+    text-shadow:
+	   -1px -1px 0 #fff,  
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		 1px 1px 0 #fff
+}
+@supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
+    .zagalovok_contact {
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+		text-stroke: 1px white;
+        text-shadow: none;
+    }
+
+}

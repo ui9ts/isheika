@@ -1,0 +1,185 @@
+@media only screen and (max-width: 992px) {
+    .container{
+        width: 90%;
+    }
+    .blck_cards{
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .card{
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .blck1_img{
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+        justify-items: center;
+    }
+    .blck1{
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 937px) {
+    .container{
+        width: 80%;
+    }
+    .blck2{
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .text_blck2{
+        margin: 0 auto;
+    }
+    .img_blck2{
+        margin: 0 auto;
+        display: block;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .container{
+        width: 80%;
+    }
+
+    .watching{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 772px) {
+    .container{
+        width: 80%;
+    }
+    .watching{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .container{
+        width: 80%;
+    }
+    .watching{
+        width: 90%;
+    }
+    .text_blck2{
+        width: 400px;
+        font-size: 20px;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .container{
+        width: 75%;
+    }
+    .watching{
+        width: 90%;
+    }
+    .img_blck2{
+        width: 350px;
+    }
+    .zagalovok{
+        font-size: 40px;
+    }
+    .text_blck2{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .container{
+        width: 80%;
+    }
+    .watching{
+        width: 90%;
+    }
+    .card{
+        width: 250px;
+    }
+    .img_card{
+        width: 250px;
+    }
+    .text_card{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .container{
+        width: 90%;
+    }
+    .header_list{
+        font-size: 14px;
+        width: 260px;
+        justify-content: center;
+        gap: 50px;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+    .watching{
+        width: 90%;
+    }
+    .block5{
+        display: block;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .zagalovok_contact{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .contact_img{
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .container{
+        width: 90%;
+    }
+    .watching{
+        width: 90%;
+    }
+    .zagalovok{
+        font-size: 30px;
+    }
+    .music-info{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .container{
+        width: 90%;
+    }
+    .watching{
+        width: 90%;
+    }
+    .zagalovok{
+        font-size: 30px;
+    }
+    .music-info{
+        width: 400px;
+    }
+    .img_blck2{
+        width: 280px;
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+
+

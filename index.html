@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИЩЕЙКА</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="block1">
+        <header>
+            <nav>
+                <ul class="header_list">
+                    <li class="header_item"><a href="#about">О нас</a></li>
+                    <li class="header_item"><a href="#music">Музыка</a></li>
+                    <li class="header_item"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <section class="blck1">
+                <img class="blck1_img" src="img/logo_v1.png" alt="">
+            </section>
+        </div>
+    </div>
+    <section id="about" class="block2">
+        <div class="container">
+            <div>
+            <div class="zagalovok">
+                «Я думаю, мы играем дэнс-панк-инди-рок»
+            </div>    
+            <div class="blck2">   
+                <div class="text_blck2">
+                    «Мы все уверены, что жизнь бывает слишком непредсказуема. Зачастую даже изменение погодных условий сбивает весь настрой, а нахождение в одной точке вызывает непреодолимый страх. Если вы чувствуете легкую панику, невероятную скуку или же смотрите весь день на свою кислую морду в зеркало, то вот, какие методы мы выбрали для себя:
+                </div>               
+                <img class="img_blck2" src="img/blck2.png" alt="">
+            </div>
+            <div class="blck2_text">
+                <div class="head_text">
+                    Ваня
+                </div>
+                <div class="text">
+                    «Я просто не могу не записывать новые песни, а то, что получается в итоге — напрямую влияет на качество моей жизни. Новая музыка. Невероятно приятно слышать что-то новое у себя в ушах. Особенно радует, что на российской сцене появляется все больше отличных команд. Отсюда вытекает четвертый пункт. Поход на концерт — лучший способ и отдохнуть, и потренить икры. Бонусом идет общение с любимыми музыкантами)»
+                </div>
+                <div class="head_text">
+                    Влад (Басист)
+                </div>
+                <div class="text">
+                    Мне помогает кофе. Он как старый свитер, что с годами становится теплее, свежий деревенский, как утро после грозы. Кофе — это то, с чего я начинаю свой день».
+                </div>
+            </div>
+            <div class="video">
+                <iframe class="watching" width="560" height="315" src="https://www.youtube.com/embed/wxX9_Id-LP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            </div> 
+        </div>
+    </section>
+    <section id="music" class="block3">
+        <section class="container">
+            <div class="zagalovok">
+                Музыка
+            </div>
+            <div class="blck_cards">
+                <div class="card">
+                    <img class="img_card" src="img/card/1.png" alt="">
+                    <div class="text_card">
+                        Я опять не могу уснуть (EP)
+                    </div>
+                </div> 
+                <div class="card">
+                    <img class="img_card" src="img/card/2.png" alt="">
+                    <div class="text_card">
+                        Лета не было (Single)
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img_card" src="img/card/3.png" alt="">
+                    <div class="text_card">
+                        Слоудайв (Single)
+                    </div>
+                </div>
+            </div>
+            <div class="blck_cards">
+                <div class="card">
+                    <img class="img_card" src="img/card/4.png" alt="">
+                    <div class="text_card">
+                        Остановись (Single)
+                    </div>
+                </div> 
+                <div class="card">
+                    <img class="img_card" src="img/card/5.png" alt="">
+                    <div class="text_card">
+                        Друг (Single)
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img_card" src="img/card/6.png" alt="">
+                    <div class="text_card">
+                        Улицы (Single)
+                    </div>
+                </div>
+            </div>                  
+        </section>
+    </section>
+    <div class="zagalovok">
+        «Агрессия - не отстой, когда это мошпит»
+    </div>
+    <div class="body">
+        <div class="music-container" id="music-container">
+            <div class="music-info">
+            <h4 id="title"></h4>
+            <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+            </div>
+            </div>
+    
+            <audio src="music/dream.mp3" id="audio"></audio>
+    
+            <div class="img-container">
+            <img src="img/player/dream.jpg" alt="music-cover" id="cover" />
+            </div>
+            <div class="navigation">
+            <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+            </div>
+        </div>
+    </div>
+    <div id="contacts" class="contact">
+        <div class="container">
+            <div class="block5">
+                <text class="zagalovok_contact">
+                    Контакты
+                </text>
+                <a href="https://t.me/isheika"><img class="contact_img" src="img/telegram.png" alt=""></a>
+                <a href="https://vk.com/isheika_official"><img class="contact_img" src="img/vk.png" alt=""></a>
+            </div>
+        </div>
+    </div> 
+    <script src="js/script.js"></script>
+</body>
+</html>
